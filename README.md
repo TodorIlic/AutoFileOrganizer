@@ -24,3 +24,4 @@ A lightweight service built in C# .NET that automatically monitors a designated 
 ## Tech Stack & Concepts Demonstrated
 
 * **Language:** C# / .NET
+* **Concepts:** Event Handlers/Delegates (`Action<T>`), Stream Memory Management (`using` blocks), Cryptographic Hashing, Switch Expressions.
