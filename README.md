@@ -2,6 +2,7 @@
 
 A lightweight service built in C# .NET that automatically monitors a designated drop-zone and categorizes incoming files into organized subdirectories. 
 
+```
 /AutoFileOrganizer (Executable Location)
 │
 └─── /Sorting (Drop your files here!)
@@ -11,7 +12,7 @@ A lightweight service built in C# .NET that automatically monitors a designated 
           ├── /Images     (.jpg, .png, .gif)
           ├── /Installers (.exe, .msi)
           └── /Duplicates (Identical SHA256 hashes)
-
+```
 ## Features
 
 * **Event-Driven Architecture:** Utilizes `FileSystemWatcher` to react to OS-level file creation events asynchronously without polling.
